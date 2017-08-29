@@ -15,6 +15,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 iOS8+
 
+
+# Screenshot
+(https://github.com/malkouz/ColorPicker/raw/master/demo.gif)
+
 ## Installation
 
 ColorPicker is available through [CocoaPods](http://cocoapods.org). To install
@@ -24,8 +28,14 @@ it, simply add the following line to your Podfile:
 pod "ColorPicker"
 ```
 
+## How to use
 ```easy to use
 import ColorPicker
+
+
+
+
+
 
 let colorPicker = ColorPickerViewController()
 colorPicker.selectedColor = { color in
@@ -45,6 +55,7 @@ self.present(colorPicker, animated: true, completion: nil)
 ```
 
 
+## Customize your picker
 ```Customization
 colorPicker.autoDismissAfterSelection = false //default: true
 
@@ -55,7 +66,8 @@ colorPicker.style = .square //default: .circle
 colorPicker.pickerSize = CGSize(width: newWidth, height: newHeight) //default 250, 250
 
 
-//Change default colors list "colorPalette.plist" contains array of hexa. colors, you can simply change it to your colors or initialize your list from anywhere your want.
+//Change default colors list "colorPalette.plist" contains array of hexa. colors, 
+//you can simply change it to your colors or initialize your list from anywhere your want.
 var colors = [UIColor]()
 let path = Bundle.main.path(forResource: "colorPalette", ofType: "plist")
 let pListArray = NSArray(contentsOfFile: path!)
