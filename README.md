@@ -12,9 +12,9 @@ ColorPicker is a fantastic color picker 🎨 written in Swift. Developers can us
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-
 # Screenshot
-(https://github.com/malkouz/SwiftTransition/blob/master/screenshots/ezgif-1-263696505e.gif)
+![BubbleTransition](https://github.com/malkouz/ColorPicker/blob/master/demo.gif)
+
 
 ## Requirements
 iOS8+
