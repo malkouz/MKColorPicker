@@ -1,9 +1,9 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## ColorPicker
+## MKColorPicker
 
-Copyright (c) 2017 moayad_kouz9@hotmail.com <malkouz@dopravo.com>
+Copyright (c) 2017 malkouz moayad_kouz9@hotmail.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

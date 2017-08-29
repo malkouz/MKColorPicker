@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CBA66447FA2B960E0C9DF70080882A3A"
+               BlueprintIdentifier = "714901FB1183A5392CD347B457D04C09"
                BuildableName = "Pods_ColorPicker_Example.framework"
                BlueprintName = "Pods-ColorPicker_Example"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CBA66447FA2B960E0C9DF70080882A3A"
+            BlueprintIdentifier = "714901FB1183A5392CD347B457D04C09"
             BuildableName = "Pods_ColorPicker_Example.framework"
             BlueprintName = "Pods-ColorPicker_Example"
             ReferencedContainer = "container:Pods.xcodeproj">

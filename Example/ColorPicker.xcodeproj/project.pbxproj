@@ -47,7 +47,7 @@
 		A588EF25B8CDA37795A6C080 /* Pods_ColorPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51490BD3847D481165CE7C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C9B19BC4906DC5727F29A48A /* Pods-ColorPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorPicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorPicker_Tests/Pods-ColorPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D89FE2D7E7DE624875114F02 /* ColorPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ColorPicker.podspec; path = ../ColorPicker.podspec; sourceTree = "<group>"; };
+		D89FE2D7E7DE624875114F02 /* MKColorPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MKColorPicker.podspec; path = ../MKColorPicker.podspec; sourceTree = "<group>"; };
 		E35AC414A0C745BF6CF7CFC6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,7 +146,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				D89FE2D7E7DE624875114F02 /* ColorPicker.podspec */,
+				D89FE2D7E7DE624875114F02 /* MKColorPicker.podspec */,
 				E35AC414A0C745BF6CF7CFC6 /* README.md */,
 				C51490BD3847D481165CE7C0 /* LICENSE */,
 			);
@@ -275,11 +275,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ColorPicker_Example/Pods-ColorPicker_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ColorPicker/ColorPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/MKColorPicker/MKColorPicker.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ColorPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MKColorPicker.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

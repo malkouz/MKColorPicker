@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double ColorPickerVersionNumber;
-FOUNDATION_EXPORT const unsigned char ColorPickerVersionString[];
+FOUNDATION_EXPORT double MKColorPickerVersionNumber;
+FOUNDATION_EXPORT const unsigned char MKColorPickerVersionString[];
 

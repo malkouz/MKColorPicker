@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import ColorPicker
+import MKColorPicker
 class ViewController: UIViewController {
 
     @IBOutlet weak var dismissSwh: UISwitch!

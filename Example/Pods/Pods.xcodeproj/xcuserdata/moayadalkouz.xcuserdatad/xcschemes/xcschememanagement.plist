@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ColorPicker.xcscheme</key>
+		<key>MKColorPicker.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>714901FB1183A5392CD347B457D04C09</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8D826350F84D5EAC18608FB24B45096D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B2F4FF9B82D84ECE04D0EFCB38232A18</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CBA66447FA2B960E0C9DF70080882A3A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F2E857757ADDBE4086DA7FE801426A07</key>
 		<dict>
 			<key>primary</key>
 			<true/>

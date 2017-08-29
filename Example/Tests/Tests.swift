@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import ColorPicker
+import MKColorPicker
 
 class Tests: XCTestCase {
     
