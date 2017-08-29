@@ -45,6 +45,32 @@ self.present(colorPicker, animated: true, completion: nil)
 ```
 
 
+```Customization
+colorPicker.autoDismissAfterSelection = false //default: true
+
+colorPicker.scrollDirection = .vertical //default: .horizontal
+
+colorPicker.style = .square //default: .circle
+
+colorPicker.pickerSize = CGSize(width: newWidth, height: newHeight) //default 250, 250
+
+
+//Change default colors list "colorPalette.plist" contains array of hexa. colors, you can simply change it to your colors or initialize your list from anywhere your want.
+var colors = [UIColor]()
+let path = Bundle.main.path(forResource: "colorPalette", ofType: "plist")
+let pListArray = NSArray(contentsOfFile: path!)
+
+if let colorPalettePlistFile = pListArray as? [String] {
+    for col in colorPalettePlistFile{
+        colors.append(UIColor(hex: col))
+    }
+}
+
+colorPicker.allColors = colors
+
+```
+
+
 
 ## Author
 
