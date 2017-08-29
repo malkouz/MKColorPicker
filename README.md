@@ -12,12 +12,12 @@ ColorPicker is a fantastic color picker 🎨 written in Swift. Developers can us
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-iOS8+
-
 
 # Screenshot
-(https://github.com/malkouz/ColorPicker/raw/master/demo.gif)
+(https://github.com/malkouz/SwiftTransition/blob/master/screenshots/ezgif-1-263696505e.gif)
+
+## Requirements
+iOS8+
 
 ## Installation
 
@@ -31,11 +31,6 @@ pod "ColorPicker"
 ## How to use
 ```easy to use
 import ColorPicker
-
-
-
-
-
 
 let colorPicker = ColorPickerViewController()
 colorPicker.selectedColor = { color in
