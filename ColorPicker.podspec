@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ColorPicker'
-  s.version          = '0.1.0'
+  s.version          = '1.0'
   s.summary          = 'Easy customizable color picker.'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ ColorPicker is a fantastic color picker 🎨 written in Swift. Developers can us
                        DESC
 
   s.homepage         = 'https://github.com/malkouz/ColorPicker'
-  s.screenshots     = 'https://github.com/malkouz/ColorPicker/raw/master/demo.gif'
+  s.screenshots     = 'https://github.com/malkouz/ColorPicker/blob/master/demo.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Moayad Al kouz' => 'moayad_kouz9@hotmail.com' }
   s.source           = { :git => 'https://github.com/malkouz/ColorPicker.git', :tag => s.version.to_s }
