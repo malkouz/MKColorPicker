@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MKColorPicker'
-  s.version          = '1.0'
+  s.version          = '1.1'
   s.summary          = 'Easy customizable color picker.'
 
 # This description is used to generate tags and improve search results.
