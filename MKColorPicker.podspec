@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MKColorPicker'
-  s.version          = '1.1'
+  s.version          = '1.2'
   s.summary          = 'Easy customizable color picker.'
 
 # This description is used to generate tags and improve search results.
@@ -37,7 +37,4 @@ MKColorPicker is a fantastic color picker 🎨 written in Swift. Developers can 
   #   'MKColorPicker' => ['MKColorPicker/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
